@@ -15,7 +15,6 @@ Before you begin, make sure you have the following:
 - **Node.js** (version >=20.0.0, LTS Versions only): [Download here](https://nodejs.org)
 - (optional, for python and docker tasks only) **Docker Compose**: [Install here](https://docs.docker.com/get-started/08_using_compose/)
 
-
 ## **2. Set Up Your Task**
 
 Once you have the required tools, input the following commands:
@@ -32,9 +31,8 @@ yarn install
 
 3. Navigate to the src/task/1-task.js file.
 
-
+\
 Now lets begin writing a task!
-
 
 ## **3. Write Your Core Task Logic**
 
@@ -56,7 +54,6 @@ The function will just run your src/task/1-task.js file in a vacuum so you can q
 
 You can use this function to test your UI and data postback to ensure your logic is working as intended.
 
-
 ## **4. (Optional) Incentive Engineering**
 
 This step is optional, as nodes can still run your task without incentives in place, but if you intend to distribute rewards for your task, we recommend adding audits.
@@ -77,7 +74,6 @@ yarn simulate
 ```
 
 This command simulates the entire task flow, including performing the task, submitting results, and checking the work (auditing). It handles multiple task rounds, tracks how long each step takes, and shows both performance results and any errors.
-
 
 ## **5. Production Testing**
 
@@ -158,7 +154,6 @@ Tasks operate within a periodic structure known as 'rounds'. Each round consists
 For more detailed information about the task flow, refer to [the runtime flow documentation](https://docs.koii.network/concepts/what-are-tasks/what-are-tasks/gradual-consensus).
 
 Looking to bring better structure to your task? Explore our [Task Organizer](https://www.figma.com/community/file/1220194939977550205/Task-Outline) for better organization.
-
 
 ## Tips
 
