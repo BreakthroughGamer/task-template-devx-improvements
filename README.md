@@ -35,10 +35,10 @@ Now lets begin writing a task!
 
 ## **3. Write Your Core Task Logic**
 
-The src/task/1-task.js file is where you will write all the code to:
+The src/task/1-task.js file is where you will write all the code to. Its for:
 
-1. Define task behavior
-2. Handle inputs and outputs
+1. Defining task behavior
+2. Handling inputs and outputs
 3. Core logic error handling
 
 We suggest you follow our tutorialized [Development Guide](https://github.com/koii-network/ezsandbox) for a more in-depth walkthrough, but to keep things short all you need to do is import the packages you require and put all your core logic within the 'try-catch' statement.
