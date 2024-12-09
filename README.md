@@ -35,7 +35,7 @@ Now lets begin writing a task!
 
 ## **3. Write Your Core Task Logic**
 
-The src/task/1-task.js file is where you will write all the code to. Its for:
+The src/task/1-task.js file is where you will write all the code. Its for:
 
 1. Defining task behavior
 2. Handling inputs and outputs
